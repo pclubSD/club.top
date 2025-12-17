@@ -20,7 +20,7 @@ function newsline() {
         teisuu.removeChild(oldline);
         const newTimeline = document.createElement("a");
         newTimeline.className = "twitter-timeline";
-        newTimeline.href = "https://x.com/programclubsd";
+        newTimeline.href = "https://x.com/ProgramclubSD";
         newTimeline.setAttribute("data-lang", "ja");
         newTimeline.setAttribute("data-theme", "dark");
         newTimeline.setAttribute("data-tweet-limit", "3");
@@ -34,3 +34,4 @@ function newsline() {
 }
 
 setInterval(newsline, 60000);
+
