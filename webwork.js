@@ -24,7 +24,7 @@ function newsline() {
         newTimeline.setAttribute("data-lang", "ja");
         newTimeline.setAttribute("data-theme", "dark");
         newTimeline.setAttribute("data-tweet-limit", "3");
-        newTimeline.textContent = "Posts by @programclubsd";
+        newTimeline.textContent = "Posts by @ProgramclubSD";
         teisuu.appendChild(newTimeline);
 
         if (window.twttr && window.twttr.widgets) {
@@ -34,4 +34,5 @@ function newsline() {
 }
 
 setInterval(newsline, 60000);
+
 
