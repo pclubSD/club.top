@@ -36,14 +36,16 @@
 }
 
 .calendar {
-  border: 0;
+  border: none;
+  outline: none;
   width: 600px;
   height: 600px;
   overflow: hidden;
 }
 
 .yearplan {
-  border: 0;
+  border: none;
+  outline: none;
   width: 110%;
   height: 600px;
 }
