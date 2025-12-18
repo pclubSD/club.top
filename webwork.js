@@ -13,26 +13,5 @@ document.addEventListener("click",e=>{
     }
 });
 
-function newsline() {
-    const teisuu = document.getElementById("timeline");
-    const oldline = teisuu.querySelector(".twitter-timeline");
-    if (oldline) {
-        teisuu.removeChild(oldline);
-        const newTimeline = document.createElement("a");
-        newTimeline.className = "twitter-timeline";
-        newTimeline.href = "https://x.com/ProgramclubSD";
-        newTimeline.setAttribute("data-lang", "ja");
-        newTimeline.setAttribute("data-theme", "dark");
-        newTimeline.setAttribute("data-tweet-limit", "3");
-        newTimeline.textContent = "Posts by @ProgramclubSD";
-        teisuu.appendChild(newTimeline);
-
-        if (window.twttr && window.twttr.widgets) {
-            window.twttr.widgets.load(teisuu);
-        }
-    }
-}
-
-setInterval(newsline, 60000);
 
 
