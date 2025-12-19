@@ -39,6 +39,7 @@
   border: none;
   outline: none;
   width: 100%;
+  height: 100%;
   aspect-ratio: 4/3;
   overflow: hidden;
 }
@@ -46,7 +47,6 @@
 .yearplan {
   border: none;
   outline: none;
-  aspect-ratio: 4/3;
   display: block;
   width: 100%;
   aspect-ratio: 4/12;
