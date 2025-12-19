@@ -40,7 +40,9 @@
   outline: none;
   display: block;
   width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 32/105;
   transform: none;
   backface-visibility: hidden;
 }
