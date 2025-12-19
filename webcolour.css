@@ -28,13 +28,6 @@
     padding: 0;
 }
 
-.calendar-frame {
-  border: 0;
-  width: 800px;
-  height: 600px;
-  overflow: hidden;
-}
-
 .yearplan { 
   border: none;
   outline: none;
