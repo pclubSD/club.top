@@ -42,7 +42,7 @@
   width: 100%;
   max-width: 100%;
   height: auto;
-  aspect-ratio: 4/3;
+  aspect-ratio: 64/105;
   transform: none;
   backface-visibility: hidden;
 }
