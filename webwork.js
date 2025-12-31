@@ -9,7 +9,7 @@ document.querySelectorAll(".menu-button").forEach(button =>{
 
 document.addEventListener("click",e=>{
     if(!e.target.closest(".dropmenu")){
-        document.querySelectorAll(".dropmenu-list").forEach(c=>c.style.display="none");
+        document.querySelectorAll(".menu-list").forEach(c=>c.style.display="none");
     }
 });
 
