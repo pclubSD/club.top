@@ -1,17 +1,17 @@
 body {
-    margin: 0;
-    overflow-x: hidden;
-    padding-top: 60px;
+  margin: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
 }
 
 .ber{
   position: fixed;
-    top: 0;
-    width: 100%;
-    background: #000;
-    color: #fff;
-    padding: 10px;
-    z-index: 1000;
+  top: 0;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
 }
 
 .ber-list{
@@ -32,33 +32,33 @@ body {
 }
 
 .menu{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .dropmenu{
-    position: relative;
+  position: relative;
 }
 
 .menu-button{
-    background: #333;
-    color: #fff;
-    border: none;
-    padding: 0.5em 1em;
-    cursor: pointer;
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
 }
 
 .menu-list{
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background: #ffa500;
-    width: 160px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffa500;
+  width: 160px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .yearplan { 
