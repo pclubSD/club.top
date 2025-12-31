@@ -25,6 +25,12 @@ body {
   margin: 0;
 }
 
+.menu-image{
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
 .menu{
     list-style: none;
     margin: 0;
