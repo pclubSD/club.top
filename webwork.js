@@ -1,8 +1,8 @@
-document.querySelectorAll(".dropmenu-button").forEach(button =>{
+document.querySelectorAll(".menu-button").forEach(button =>{
     button.addEventListener("click",()=>{
         const list=button.nextElementSibling;
         const open=list.style.display==="block";
-        document.querySelectorAll(".dropmenu-list").forEach(c=>c.style.display="none");
+        document.querySelectorAll(".menu-list").forEach(c=>c.style.display="none");
         list.style.display=open?"none":"block";
     });
 });
