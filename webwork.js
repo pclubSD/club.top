@@ -28,8 +28,17 @@ function getform(){
         },
         body:JSON.stringify(data)
     })
-    .then(response=>console.log("Success:",response))
-    .catch((error)=>console.error("Error:",error));
+    .then(() => {
+        alert("送信が完了しました！");
+        document.getElementById("name").value = "";
+        document.getElementById("mail").value = "";
+        document.getElementById("message").value = "";
+    })
+    .catch((error) => {
+        alert("送信に失敗しました。時間をおいて再度お試しください。");
+        console.error("Error:", error);
+    });
+
 }
 
 
