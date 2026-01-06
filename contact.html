@@ -27,11 +27,11 @@
         </div>
      </header>
 
-  <form id="cform">
+  <form id="cform" onsubmit="getform(); return false;">
     <input id="name" type="text" placeholder="お名前">
-    <input id="mail" type="email" placeholder="メールアドレス">
+    <input id="mail" type="email" autocomplete="off" placeholder="メールアドレス">
     <textarea id="message" placeholder="内容"></textarea>
-    <button id="cbutton" type="button" onclick="getform()">送信</button>
+    <button id="cbutton">送信</button>
   </form>
 
   <script src="webwork.js"></script>
