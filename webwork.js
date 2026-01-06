@@ -19,7 +19,7 @@ function getform(){
         name:document.getElementById("name").value,
         mail:document.getElementById("mail").value,
         message:document.getElementById("message").value
-    }
+    };
     fetch(spreadurl,{
         method:"POST",
         mode:"no-cors",
