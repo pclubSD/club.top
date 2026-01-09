@@ -75,3 +75,26 @@ body {
   aspect-ratio: 4/3;
 }
 
+#cform{
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box; 
+}
+
+#cform input,#cform textarea{
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#cform input{
+  height: 44px;
+}
+
+#cform textarea{
+  height: 140px;
+  resize: vertical;
+}
+
+
