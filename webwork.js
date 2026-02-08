@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             }
         });
     },{threshold:0.2});
-    a.forEach(a=>ob.ob(target));
+    a.forEach(al=>ob.observe(al));
 });
 
 function getform(){
