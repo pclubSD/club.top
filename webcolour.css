@@ -61,6 +61,17 @@ body {
   padding: 0;
 }
 
+.setumei{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.9s ease-out;
+}
+
+.setumei.show{
+  opacity: 1;
+  transform: rotateY(0);
+}
+
 .yearplan { 
   border: none;
   width: 100%;

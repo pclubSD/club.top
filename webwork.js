@@ -13,6 +13,18 @@ document.addEventListener("click",e=>{
     }
 });
 
+document.addEventListener("DOMContentLoaded",()=>{
+    const a=document.querySelectorAll(".setumei");
+    const ob=new IntersectionObserver((entries)=>{
+        entries.forEach(entry=>{
+            if(entry.isIntersecting){
+                entry.target.classList.add("show");
+            }
+        });
+    },{threshold:0.2});
+    a.forEach(a=>ob.ob(target));
+});
+
 function getform(){
     const spreadurl="https://script.google.com/macros/s/AKfycbwi76-3T09eYUA5FmHpLjXr2jstyBc25RmI2n7XNb0niQSO6on-sYYX4e2lBZdTLq7k/exec"
     const data={
