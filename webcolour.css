@@ -25,10 +25,8 @@ body {
   margin: 0;
 }
 
-.menu-image{
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
+.nav{
+  margin-left: 0;
 }
 
 .menu{
@@ -42,11 +40,18 @@ body {
 }
 
 .menu-button{
+  margin-right: 10px;
   background: #333;
   color: #fff;
   border: none;
-  padding: 0.5em 1em;
+  padding: 0.5em;
   cursor: pointer;
+}
+
+.menu-image{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
 
 .menu-list{
