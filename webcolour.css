@@ -16,8 +16,8 @@ body {
 
 .ber-list{
   display: flex;
-  padding: 0 12px;
-  justify-content: space-between;
+  width: 95%;
+  margin: auto;
   align-items: center;
 }
 
