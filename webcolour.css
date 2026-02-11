@@ -15,6 +15,7 @@ body {
 }
 
 .ber-list{
+  width: 95%;
   display: flex;
   padding: 0 12px;
   align-items: center;
@@ -24,6 +25,7 @@ body {
 .ber h1{
   font-size: 20px;
   margin: 0;
+  white-space: nowrap;
 }
 
 .nav{
