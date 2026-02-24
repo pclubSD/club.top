@@ -26,6 +26,8 @@ body {
   font-size: 20px;
   margin: 0;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nav{
@@ -92,11 +94,20 @@ body {
   aspect-ratio: 64/119;
 }
 
-.calendar {
-  border: none;
+.calendar-wrapper {
+  position: relative;
   width: 100%;
-  height: auto;
-  aspect-ratio: 4/3;
+  padding-top: 75%; /* 4:3 → 3/4 = 0.75 */
+  overflow: hidden;
+}
+
+.calendar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 #cform{
